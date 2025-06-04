@@ -1,12 +1,76 @@
-<!-- index.html -->
 <!DOCTYPE html>
-<html>
+<html lang="tr">
 <head>
-  <title>Arcalis Teknoloji Makina Sanayi A.Ş.</title>
   <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Arcalis Teknoloji ve Makine San. Tic. Ltd. Sti. </title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; scroll-behavior: smooth; }
+    body { font-family: Arial, sans-serif; line-height: 1.6; }
+    nav { background: #002244; color: white; padding: 1em; position: sticky; top: 0; z-index: 999; }
+    nav ul { display: flex; justify-content: center; list-style: none; }
+    nav li { margin: 0 15px; }
+    nav a { color: white; text-decoration: none; font-weight: bold; }
+    section { padding: 80px 20px; min-height: 100vh; }
+    header { background: url('https://images.unsplash.com/photo-1564460576392-8cb94e88aa5e') no-repeat center center/cover; color: white; text-align: center; display: flex; flex-direction: column; justify-content: center; height: 100vh; }
+    header h1 { font-size: 3em; background-color: rgba(0, 0, 0, 0.5); padding: 0.5em; }
+    .about, .services, .products, .contact { max-width: 900px; margin: auto; }
+    .services ul, .products ul { display: flex; flex-wrap: wrap; justify-content: space-around; padding-top: 20px; }
+    .services li, .products li { flex: 0 0 40%; margin-bottom: 20px; background: #f4f4f4; padding: 1em; border-radius: 10px; }
+    footer { background: #002244; color: white; text-align: center; padding: 1em; }
+  </style>
 </head>
 <body>
-  <h1>Arcalis Teknoloji Makina Sanayi A.Ş.</h1>
-  <p>Bu site geliştirme aşamasındadır.</p>
+
+  <nav>
+    <ul>
+      <li><a href="#about">Hakkımızda</a></li>
+      <li><a href="#services">Hizmetler</a></li>
+      <li><a href="#products">Ürünler</a></li>
+      <li><a href="#contact">İletişim</a></li>
+    </ul>
+  </nav>
+
+  <header>
+    <h1>Arcalis</h1>
+    <p>Geleceğin üretim teknolojileri burada</p>
+  </header>
+
+  <section id="about" class="about">
+    <h2>Hakkımızda</h2>
+    <p>Arcalis, sistemler geliştiren bir teknoloji firmasıdır. Amacımız, sektöründe daha verimli, sürdürülebilir ve akıllı hale getirmek.</p>
+  </section>
+
+  <section id="services" class="services">
+    <h2>Hizmetlerimiz</h2>
+    <ul>
+      <li><strong>Hizmet 1</strong><br> Hizmet açıklama özel yazılım çözümleri</li>
+      <li><strong>Hizmet 2</strong><br> Hizmet açıklama özel yazılım çözümleri</li>
+      <li><strong>Hizmet 3</strong><br> Hizmet açıklama özel yazılım çözümleri</li>
+      <li><strong>Hizmet 4</strong><br> Hizmet açıklama özel yazılım çözümleri</li>
+    </ul>
+  </section>
+
+  <section id="products" class="products">
+    <h2>Ürünlerimiz</h2>
+    <ul>
+      <li><strong>Master 3000</strong><br> Yapay zeka destekli optimizasyon yazılımı</li>
+      <li><strong>Master 3000</strong><br> Yapay zeka destekli optimizasyon yazılımı</li>
+      <li><strong>Master 3000 AI</strong><br> Yapay zeka destekli optimizasyon yazılımı</li>
+      <li><strong>Master 3000</strong><br> Yapay zeka destekli optimizasyon yazılımı</li>
+    </ul>
+  </section>
+
+  <section id="contact" class="contact">
+    <h2>İletişim</h2>
+    <p>Adres: XXX, İstanbul</p>
+    <p>Email: info@dxxx.com</p>
+    <p>Telefon: +90 (212) XXX XX XX</p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Arcalis Tüm hakları saklıdır.</p>
+  </footer>
+
 </body>
 </html>
